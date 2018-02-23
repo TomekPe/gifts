@@ -1,0 +1,49 @@
+// Section header
+// --------------------------------------------------
+.main-header
+  height: 300px
+  background-image: url(../fronthack/dist/images/header-image.png)
+  background-size: cover
+  background-position: bottom
+
+
+.site-logo
+  padding-top: 15px
+  img
+    max-width: 50px
+
+.main-navigation
+  padding: 10px
+  ul ul
+    padding: 0
+    margin: 0
+    list-style: none
+    position: absolute
+    background: #FFFFFF
+    display: none
+    li
+      padding: 5px 0
+      width: 100%
+      text-align: center
+      border-bottom: 1px solid $gray-accent
+      &:hover
+        color: #FFFFFF
+        background: $gray-accent
+    a
+      color: $green
+      display: block
+      &:hover
+        color: #FFFFFF
+        background: $gray-accent
+
+  li
+    display: inline-block
+    padding-left: 5px
+    position: relative
+    a
+      font-size: 18px
+      text-decoration: none
+      color: #FFFFFF
+      font-family: $font-family-serif
+      &:hover
+        font-weight: bold

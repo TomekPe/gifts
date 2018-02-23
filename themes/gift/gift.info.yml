@@ -1,0 +1,18 @@
+name: Gifts
+description: Gift theme based on stable.
+package: Custom
+type: theme
+version: 8.1.0
+core: 8.x
+#Libraries
+libraries:
+  - gift/global-components
+  - gift/fonts
+
+regions:
+  header: 'Header'
+  main_navigation: 'Main navigation'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: 'Footer'
